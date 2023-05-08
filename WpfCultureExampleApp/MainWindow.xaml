@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfCultureExampleApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCultureExampleApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="en-US" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="enUs_Click" />
+        <Button Content="fr-FR" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75" Click="frFr_Click" />
+        <Button Content="nl-NL" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="75" Click="nlNl_Click" />
+        <TextBlock HorizontalAlignment="Left" Margin="90,10,0,0" TextWrapping="Wrap" Text="{Binding Path=Text}" VerticalAlignment="Top" Height="70" Width="417"/>
+    </Grid>
+</Window>
